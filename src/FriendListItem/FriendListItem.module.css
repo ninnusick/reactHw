@@ -1,0 +1,32 @@
+.status {
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: rgb(218, 0, 4);
+}
+.item {
+  width: 200px;
+  height: 70px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  padding-left: 10px;
+  color: #b4b4b4;
+  font-size: 20px;
+}
+.avatarr {
+  padding-left: 10px;
+}
