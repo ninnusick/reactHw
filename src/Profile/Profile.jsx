@@ -1,7 +1,6 @@
 import styles from "./Profile.module.css";
-import user from "./user.json";
 
-function Profile({ stats, username, tag, location, avatar, user }) {
+function Profile({ stats, username, tag, location, avatar }) {
   return (
     <div className={styles.profile}>
       <div className={styles.description}>
